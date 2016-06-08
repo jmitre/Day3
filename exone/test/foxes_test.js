@@ -23,6 +23,6 @@ describe("#swiftFox",function(){
   it("Returns an empty array given an array with only swift Foxes", function(){
     var foxArray = ['Swift Fox', 'Swift Fox', 'Swift Fox', 'Swift Fox'];
     var expectedFoxes = []
-    expect(swiftFox(foxArray)).to.deep.equals(expectedFoxes);
+    expect(swiftFox(foxArrayech)).to.deep.equals(expectedFoxes);
   });
 });
